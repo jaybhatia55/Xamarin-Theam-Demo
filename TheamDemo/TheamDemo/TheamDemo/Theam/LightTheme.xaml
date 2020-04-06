@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="TheamDemo.Theam.LightTheme">
+
+    <Color x:Key="background">#FFFFFF</Color>
+
+     <Color x:Key="lablecolor">#000000</Color>
+
+
+     <Color x:Key="statusbarcolor">#F0E68C</Color>
+     <Color x:Key="navigationbarcolor">#EEE8AA</Color>
+     <Color x:Key="navigationbartextcolor">#000000</Color>
+
+
+    <Style TargetType="{x:Type NavigationPage}">
+            <Setter Property="BarBackgroundColor"
+                    Value="{DynamicResource  navigationbarcolor}" />
+             <Setter Property="BarTextColor"
+                    Value="{DynamicResource navigationbartextcolor}" />           
+        </Style>
+</ResourceDictionary>

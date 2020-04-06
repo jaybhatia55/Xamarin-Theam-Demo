@@ -3,3 +3,7 @@
 ################################################################################
 
 /TheamDemo/TheamDemo/TheamDemo/bin/Debug/netstandard2.0
+/TheamDemo/TheamDemo/TheamDemo/obj
+/TheamDemo/TheamDemo/TheamDemo.Android/bin/Debug
+/TheamDemo/TheamDemo/TheamDemo.Android/obj
+/TheamDemo/TheamDemo/TheamDemo.iOS/obj
